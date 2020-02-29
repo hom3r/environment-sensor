@@ -63,8 +63,8 @@ and uncomment line
 ## See it in action
 This is how the sensor looks like in action. Feel free to improve the code, add more sensors create a printable 3D model for a case!
 
-![Photo of the sensor in a planting box](images/IMG_1125.jpg)
-
 ![Closeup photo of the sensor](images/IMG_1126.jpg)
+
+![Photo of the sensor in a planting box](images/IMG_1125.jpg)
 
 ![ThingSpeak screenshot](images/thingspeak.png)
