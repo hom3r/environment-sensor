@@ -59,3 +59,12 @@ and uncomment line
 6. Select the ESP32 development board in Tools > Development board > ESP32 Dev Module
 
 7. Make sure the correct Port is selected in Tools and upload the program
+
+## See it in action
+This is how the sensor looks like in action. Feel free to improve the code, add more sensors create a printable 3D model for a case!
+
+![Photo of the sensor in a planting box](images/IMG_1125.jpg)
+
+![Closeup photo of the sensor](images/IMG_1126.jpg)
+
+![ThingSpeak screenshot](images/thingspeak.png)
