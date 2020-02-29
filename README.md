@@ -41,11 +41,12 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ![Step 2 - installing the ESP32 board family](images/step_2.png)
 
-3. Install libraries **TFT_eSPI** (by Bodmer) and **Button2** (by LennartHennigs). You can install Button2 by downloading [this ZIP](https://github.com/lennarthennigs/Button2/zipball/master) and then installing it manually by navigating Sketch -> Include Library -> Add .ZIP Library... and selecting it. 
+3. Install library **TFT_eSPI** (by Bodmer) in Sketch -> Include Library -> Manage Libraries
+4. Install library **Button2** (by LennartHennigs). Personally I could not find it in the Manage Libraries window. You can install it manually by downloading [this ZIP](https://github.com/lennarthennigs/Button2/zipball/master), then navigating to Sketch -> Include Library -> Add .ZIP Library... and selecting it. 
 
-![Step 3 - installing a library manually](images/step_3.png)
+![Step 4 - installing a library manually](images/step_4.png)
 
-4. Modify User_Setup_Select.h file in your libraries folder (on Mac in ~/Arduino/Libraries/TFT_eSPI). Comment out the default settings line
+5. Modify User_Setup_Select.h file in your libraries folder (on Mac in ~/Arduino/Libraries/TFT_eSPI). Comment out the default settings line
 ```
 #include <User_Setup.h> 
 ```
@@ -55,6 +56,6 @@ and uncomment line
 #include <User_Setups/Setup25_TTGO_T_Display.h>
 ```
 
-5. Select the ESP32 development board in Tools > Development board > ESP32 Dev Module
+6. Select the ESP32 development board in Tools > Development board > ESP32 Dev Module
 
-6. Make sure the correct Port is selected in Tools and upload the program
+7. Make sure the correct Port is selected in Tools and upload the program
